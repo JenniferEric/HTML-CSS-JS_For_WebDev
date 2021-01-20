@@ -1,0 +1,222 @@
+/*###
+Marcus Fessler__main.css__ver. 0.1
+###*/
+
+/*#
+SELECTOR FLOW - All classes should follow this guidleline
+###
+.class {
+POSITTION
+GRID
+DISPLAY
+PADDING/MARGIN
+COLOR
+TEXT
+  font style
+  decoration
+  formating
+OTHER
+}
+#*/
+
+/*###  ADJUSTING GLOBAL box-sizing  ###*/
+* {
+  box-sizing: border-box;
+}
+
+/*###  ADJUSTING DEFAULT STYLES  ###*/
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+}
+
+/*###  Granular Color Choices  ###*/
+.bkg-yellow {
+  background-color: #e6b331;
+}
+.bkg-pink {
+  background-color: #e6706f;
+}
+.bkg-brown {
+  background-color: #9c653d;
+}
+.font-white {
+  color: #ffffff;
+}
+.font-black {
+  color: #202020;
+}
+
+/*###  Fancy Heading Font  ###*/
+h1, h2, h3, h4 {
+  margin: 0px;
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+}
+
+/*###  Grid Area Base Styling  ###*/
+.grid-container {
+  padding: 0.4em;
+  overflow: hidden;
+}
+
+.grid-row {
+  width: 100%;
+}
+.grid-cel {
+  float: left;
+  overflow: hidden;
+}
+
+.cel-content {
+  margin: 1.2%;
+  background-color: #e8d7cc;
+  border: solid 1px black;
+}
+
+/*###  Resturant Menu Base Styling  ###*/
+.menu-title {
+  margin: 0.8em;
+  text-align: center;
+  font-size: 3.2em;
+}
+.meat-title {
+  float: right;
+  margin: 0;
+  padding: 0.4em 0.6em;
+  border: solid 1px black;
+}
+.meat-description {
+  clear: both;
+  margin: 1em;
+  padding: 0.4em;
+}
+
+
+/*###  MEDIA QUERIES FOR DESKTOP & TABLET  #########*/
+/*###  Small Devices  ###*/
+@media only screen and (max-width : 767px) {
+  .cel-content {
+    height: 320px;
+  }
+  .cel-sm1 {
+    width: 8.33%;
+  }
+  .cel-sm2 {
+    width: 16.66%;
+  }
+  .cel-sm3 {
+    width: 25%;
+  }
+  .cel-sm4 {
+    width: 33.33%;
+  }
+  .cel-sm5 {
+    width: 41.66%;
+  }
+  .cel-sm6 {
+    width: 50%;
+  }
+  .cel-sm7 {
+    width: 58.33%;
+  }
+  .cel-sm8 {
+    width: 66.66%;
+  }
+  .cel-sm9 {
+    width: 74.99%;
+  }
+  .cel-sm10 {
+    width: 83.33%;
+  }
+  .cel-sm11 {
+    width: 91.66%;
+  }
+  .cel-sm12 {
+    width: 100%;
+  }
+}
+/*###  Medium Devices  ###*/
+@media only screen and (min-width : 768px) {
+  .cel-content {
+    height: 280px;
+  }
+  .cel-md1 {
+    width: 8.33%;
+  }
+  .cel-md2 {
+    width: 16.66%;
+  }
+  .cel-md3 {
+    width: 25%;
+  }
+  .cel-md4 {
+    width: 33.33%;
+  }
+  .cel-md5 {
+    width: 41.66%;
+  }
+  .cel-md6 {
+    width: 50%;
+  }
+  .cel-md7 {
+    width: 58.33%;
+  }
+  .cel-md8 {
+    width: 66.66%;
+  }
+  .cel-md9 {
+    width: 74.99%;
+  }
+  .cel-md10 {
+    width: 83.33%;
+  }
+  .cel-md11 {
+    width: 91.66%;
+  }
+  .cel-md12 {
+    width: 100%;
+  }
+}
+/*###  Large Devices  ###*/
+@media only screen and (min-width : 992px) {
+  .cel-content {
+    height: 300px;
+  }
+  .cel-lg1 {
+    width: 8.33%;
+  }
+  .cel-lg2 {
+    width: 16.66%;
+  }
+  .cel-lg3 {
+    width: 25%;
+  }
+  .cel-lg4 {
+    width: 33.33%;
+  }
+  .cel-lg5 {
+    width: 41.66%;
+  }
+  .cel-lg6 {
+    width: 50%;
+  }
+  .cel-lg7 {
+    width: 58.33%;
+  }
+  .cel-lg8 {
+    width: 66.66%;
+  }
+  .cel-lg9 {
+    width: 74.99%;
+  }
+  .cel-lg10 {
+    width: 83.33%;
+  }
+  .cel-lg11 {
+    width: 91.66%;
+  }
+  .cel-lg12 {
+    width: 100%;
+  }
+}
