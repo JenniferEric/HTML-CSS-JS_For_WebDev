@@ -69,7 +69,7 @@ h1, h2, h3, h4 {
 }
 
 .cel-content {
-  margin: 1.2%;
+  margin: 0.6em;
   background-color: #e8d7cc;
   border: solid 1px black;
 }
@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 .meat-description {
   clear: both;
   margin: 1em;
-  padding: 0.4em;
+  padding: 1em;
 }
 
 
@@ -97,7 +97,7 @@ h1, h2, h3, h4 {
 /*###  Small Devices  ###*/
 @media only screen and (max-width : 767px) {
   .cel-content {
-    height: 320px;
+    height: 230px;
   }
   .cel-sm1 {
     width: 8.33%;
@@ -139,7 +139,7 @@ h1, h2, h3, h4 {
 /*###  Medium Devices  ###*/
 @media only screen and (min-width : 768px) {
   .cel-content {
-    height: 280px;
+    height: 300px;
   }
   .cel-md1 {
     width: 8.33%;
@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
 /*###  Large Devices  ###*/
 @media only screen and (min-width : 992px) {
   .cel-content {
-    height: 300px;
+    height: 360px;
   }
   .cel-lg1 {
     width: 8.33%;
