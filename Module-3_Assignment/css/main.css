@@ -1,0 +1,34 @@
+/*
+Site Name: ---
+Author: Marcus Fessler
+Version: 0.1
+*/
+/* PALLETTE
+Color1 | rgba(0, 0, 0, 1)
+Color2 | rgba(228, 28, 28, 1)
+Color3 | rgba(255, 255, 255, 1)
+Font1  | font-family:'', 'Arial', sans-serif;
+Font2  | font-family:'', 'Arial', sans-serif;
+*/
+/*
+GENERAL USAGE aka how you prioritize your styles
+.class {
+POSITTION
+  t/b/l/r
+  z-index
+  flex
+  float/clear
+DISPLAY-opacity/transform
+GRID
+BOX MODEL OUT>IN
+BACKGROUND
+TEXT
+  font style-size/family/weight/color
+  decoration
+  formatting
+OTHER
+}
+/*MAIN SECTION=============================================================== */
+/*----Section Heading----*/
+/*-Subsection-*/
+/*comment*/
