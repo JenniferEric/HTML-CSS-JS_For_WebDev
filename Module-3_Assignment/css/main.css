@@ -4,11 +4,12 @@ Author: Marcus Fessler
 Version: 0.1
 */
 /* PALLETTE
-Color1 | rgba(0, 0, 0, 1)
-Color2 | rgba(228, 28, 28, 1)
-Color3 | rgba(255, 255, 255, 1)
-Font1  | font-family:'', 'Arial', sans-serif;
-Font2  | font-family:'', 'Arial', sans-serif;
+Black | rgba(15, 3, 20, 1)
+Blue | rgba(139, 164, 208, 1)
+Plum | rgba(227, 150, 223, 1)
+Pink | rgba(227, 101, 193, 1)
+Font1  | font-family: 'Fraunces', serif; 500/600i
+Font2  | font-family: 'Open Sans', sans-serif; 300/600
 */
 /*
 GENERAL USAGE aka how you prioritize your styles
@@ -28,7 +29,8 @@ TEXT
   formatting
 OTHER
 }
-/*MAIN SECTION=============================================================== */
+/*MAIN SECTION================================================================*/
 /*----Section Heading----*/
 /*-Subsection-*/
 /*comment*/
+/*=====================================================================*/
