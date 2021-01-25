@@ -1,5 +1,5 @@
 /*
-Site Name: ---
+Site Name: Mr. Fancy's Diner | Module 3 Coding Assignment
 Author: Marcus Fessler
 Version: 0.1
 */
@@ -33,4 +33,44 @@ OTHER
 /*----Section Heading----*/
 /*-Subsection-*/
 /*comment*/
-/*=====================================================================*/
+/*===============================END======================================*/
+/*RESETING STYLES=============================================================*/
+/*-Adjusting Global box-sizing-*/
+* {
+  box-sizing: border-box;
+}
+/*-Adjusting fonts-*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(15, 3, 20, 1);
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+/*HEADER======================================================================*/
+/*----Navbar----*/
+.navbar {
+    border-radius: none;
+}
+.navbar-default {
+  background-color: rgba(227, 101, 193, 1);
+  border: none;
+  box-shadow: 0 2px 12px 2px rgba(158, 172, 179, 0.18);
+}
+.navbar-default .navbar-brand {
+  height: 80px;
+  color: rgba(15, 3, 20, 1);
+}
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+/*MEDIA QUERIES===============================================================*/
+/*----Extra small devices----*/
+/*----Small devices----*/
+/*----Medium devices----*/
