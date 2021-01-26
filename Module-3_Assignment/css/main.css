@@ -39,6 +39,7 @@ OTHER
 * {
   box-sizing: border-box;
 }
+
 /*-Adjusting fonts-*/
 body {
   font-family: 'Open Sans', sans-serif;
@@ -46,6 +47,7 @@ body {
   font-weight: 300;
   color: rgba(15, 3, 20, 1);
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px;
@@ -53,23 +55,84 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-style: italic;
 }
+
 /*HEADER======================================================================*/
-/*----Navbar----*/
 .navbar {
-    border-radius: none;
+  border-radius: none;
 }
+
 .navbar-default {
-  background-color: rgba(227, 101, 193, 1);
+  /*Styling actual bar in header*/
+  background-color: rgba(227, 150, 223, 1);
   border: none;
+  border-radius: none;
   box-shadow: 0 2px 12px 2px rgba(158, 172, 179, 0.18);
 }
+
+/*----Navbar----*/
+#site-title {
+  /*title/brand text*/
+  padding-top: 4px;
+}
+
+.navbar-header .navbar-brand:hover {
+  /*fix title color change on hover*/
+  color: rgba(15, 3, 20, 1);
+}
+
 .navbar-default .navbar-brand {
+  /*also target title/brand text*/
   height: 80px;
   color: rgba(15, 3, 20, 1);
 }
-.navbar > .container-fluid .navbar-brand {
-    margin-left: 0;
+
+.navbar-default .navbar-toggle {
+  /*button border*/
+  border-color: rgba(227, 101, 193, 1);
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  /*hamburger icon*/
+  background-color: rgba(227, 101, 193, 1);
+}
+
+.navbar-toggle {
+  /*target button*/
+  margin-top: 18px;
+  margin-right: 24px;
+  padding: 12px 9px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+.navbar>.container-fluid .navbar-brand {
+  /*reducing space between brand title and screen-edge*/
+  margin-left: 0;
+}
+
+/*----Navbar Dropdown----*/
+.navbar-default .navbar-collapse {
+  background-color: rgba(227, 101, 193, 1);
+}
+
+.navbar-default .navbar-nav {
+  /*background-color: rgba(227, 101, 193, 1);*/
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgba(15, 3, 20, 1);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
 /*MEDIA QUERIES===============================================================*/
 /*----Extra small devices----*/
 /*----Small devices----*/
