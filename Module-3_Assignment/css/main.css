@@ -9,7 +9,7 @@ Blue | rgba(139, 164, 208, 1)
 Plum | rgba(227, 150, 223, 1)
 Pink | rgba(227, 101, 193, 1)
 Font1  | font-family: 'Fraunces', serif; 500/600i
-Font2  | font-family: 'Open Sans', sans-serif; 300/600
+Font2  | font-family: 'Open Sans', sans-serif; 400/600
 */
 /*
 GENERAL USAGE aka how you prioritize your styles
@@ -58,14 +58,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /*HEADER======================================================================*/
 .navbar {
-  border-radius: none;
+  margin-bottom: 4%;
+  border-radius: initial;
 }
 
 .navbar-default {
   /*Styling actual bar in header*/
-  background-color: rgba(227, 150, 223, 1);
   border: none;
-  border-radius: none;
+  border-radius: initial;
+  background-color: rgba(227, 150, 223, 1);
   box-shadow: 0 2px 12px 2px rgba(158, 172, 179, 0.18);
 }
 
@@ -115,12 +116,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*----Navbar Dropdown----*/
-.navbar-default .navbar-collapse {
+.navbar-collapse {
   background-color: rgba(227, 101, 193, 1);
 }
 
 .navbar-default .navbar-nav {
-  /*background-color: rgba(227, 101, 193, 1);*/
+  background-color: rgba(227, 101, 193, 1);
   text-transform: uppercase;
   text-align: center;
 }
@@ -133,7 +134,61 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+/*BODY CONTENT================================================================*/
+/*----Central Content Grid----*/
+#content-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+.grid-cel {
+/*styling BS grid cells*/
+  margin-bottom: 4%;
+  position: relative;
+  overflow: hidden;
+}
+/*----Cell Content----*/
+.grid-cel p {
+  margin: 0;
+  padding: 1em 1.2em 1.2em 1.2em;
+  background-color: rgba(139, 164, 208, 1);
+  font-weight: 400;
+  color: white;
+}
+
+.section-heading {
+  position: relative;
+  text-align: center;
+}
+
+.section-heading h2 {
+  background-color: rgba(227, 150, 223, 1);
+  padding: 2% 0;
+}
+
 /*MEDIA QUERIES===============================================================*/
 /*----Extra small devices----*/
+@media only screen and (max-width : 767px) {
+
+}
 /*----Small devices----*/
+@media only screen and (min-width: 768px) {
+  /*----Navbar----*/
+  .navbar-collapse {
+    /*navbar/dropdown color fix*/
+    background-color: rgba(227, 150, 223, 1);
+  }
+  /*----Central Content Grid----*/
+  .col-sm-6 p {
+  /*fixing inconsitent height*/
+    height: 40vh;
+  }
+}
 /*----Medium devices----*/
+@media only screen and (min-width: 992px) {
+  /*----Central Content Grid----*/
+  .col-md-4 p {
+  /*fixing inconsitent height*/
+    height: 38vh;
+  }
+}

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,600&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -19,16 +19,19 @@
 <body>
   <header>
     <nav class="navbar navbar-default">
-      <div class="container-fluid"><!--Entire Nav holding container-->
+      <div class="container-fluid">
+        <!--Entire Nav holding container-->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span><!--hamburger button-->
+            <!--hamburger button-->
+            <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            <h1 id="site-title">Mr. Fancy's Diner</h1><!--Logo/Brand-->
+            <h1 id="site-title">Mr. Fancy's Diner</h1>
+            <!--Logo/Brand-->
           </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,9 +41,40 @@
             <li><a href="#">Link</a></li>
           </ul>
         </div><!-- .navbar-collapse -->
-      </div><!--container-fluid-->
+      </div>
+      <!--container-fluid-->
     </nav>
   </header>
+
+  <div id="content-grid" class="container container-fluid">
+    <!--Entire body content container-->
+    <div class="row">
+      <div id="chicken" class="grid-cel col-md-4 col-sm-6 col-xs-12">
+        <span class="section-heading">
+          <h2>Chicken Breast</h2>
+        </span>
+        <p class="">
+          A chicken breast is actually the underside of a chicken when it is up and wandering about. Each chicken has two breasts. Plain white chicken breasts are gross.
+        </p>
+      </div>
+      <div id="beef" class="grid-cel col-md-4 col-sm-6 col-xs-12">
+        <span class="section-heading">
+          <h2>Beef Juice</h2>
+        </span>
+        <p class="">
+          Jus (pronounced zhoo) starts with the drippings from cooked meat. The liquid is reduced until it gets goop consistency, which is usually gooooopier than gravy.
+        </p>
+      </div>
+      <div id="sushi" class="grid-cel col-md-4 col-sm-12 col-xs-12">
+        <span class="section-heading">
+          <h2>7-Eleven Sushi</h2>
+        </span>
+        <p class="">
+          Our salads and sushi are packed with real ingredients and are full of flavour. Grab one today from your nearest 7-Eleven. Range may vary by store. Yummy-yummy.
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
